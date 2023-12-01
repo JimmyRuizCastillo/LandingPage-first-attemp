@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+#cabecera {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(236, 219, 219);
+}
+
+.navbar ul li{
+    text-decoration: none;
+    list-style: none;
+    position:relative;
+    float: right;
+}
+
+.navbar ul li a{
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 10px;
+    color: #000000;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+
+#titulo {
+    font-family: Walsheim, sans-serif;
+    font-size: 3.8em;
+    margin-left: 40px;
+    text-shadow: #555 2px 2px 3px;
+}
+
+#cabeceraCont {
+    text-align: center;
+}
+
+#contener {
+    margin-top: 20%;
+    border-bottom-color: white;
+    margin-left: 40px;
+    float: left;
+}
+
+#intro {
+    color: white;
+    font-size: 2.8em;
+    text-align: left;
+    font-family: Walsheim, sans-serif;
+}
+
+#subIntro {
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    font-family: aktiv-grotesk, sans-serif;
+}
+
+#btnCont {
+    width: 300px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18%;
+}
+
+#btn {
+    border-radius: 2px;
+    border-color: transparent;
+    text-decoration: none;
+    background-color: rgb(119, 14, 102);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5%;
+    border-radius: 9999px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: black;
+}
+
+#mediaCont {
+    text-align: center;
+    height: 480px;
+    width: 640px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: -30%;
+}
+
+#media {
+    margin-top: 10%;
+    padding: 0px;
+}
+
+#imgContainerCab {
+    width: 25%;
+    margin: auto;
+    display: inline-block;
+    margin-top: -20%;
+}
+
+#imgContainer {
+    text-align: center;
+}
+
+#imgCenter {
+    padding: 0px;
+    margin-top: 20%;
+    width: 20%;
+    height: 20%;
+}
+
+#contDescription {
+    text-align: center;
+}
+
+.descriptionTi {
+    font-family: Walsheim, sans-serif;
+    font-size: 3.4em;
+    margin-top: 22%;
+    color: white;
+}
+
+.description {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 1.6em;
+    color: white;
+}
